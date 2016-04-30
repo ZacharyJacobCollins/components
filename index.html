@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <!-- timedropper -->
+    <script src="timedropper/timedropper.js"></script>
+    <link rel="stylesheet" type="text/css" href="timedropper/timedropper.css">
+
+    <!-- datedropper -->
+    <script src="datedropper/datedropper.js"></script>
+    <link rel="stylesheet" type="text/css" href="datedropper/datedropper.css">
+
+  </head>
+
+  <body>
+      <script type="text/javascript">
+        jQuery(document).ready(function () {
+          jQuery( "#alarm" ).timeDropper();
+          jQuery( "#departure" ).dateDropper();
+        });
+      </script>
+
+      <input type="text" id="departure" />
+      <input type="text" id="alarm" />
+  </body>
+
+  <footer>
+  </footer>
+</html>
